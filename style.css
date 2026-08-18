@@ -1361,7 +1361,7 @@
 
         header .row {
             flex-direction: column;
-            line-items: center;
+            align-items: center;
         }
 
         .header__description,
@@ -1689,7 +1689,7 @@
             .testimonial__bottom {
                 flex-direction: column;
                 align-items: center;
-                padding-top 4px;
+                padding-top: 4px;
             }
 
             .testimonial__profile {
@@ -1757,128 +1757,3 @@
                 line-height: 1.5;
             }
         }
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-
-        
-        
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

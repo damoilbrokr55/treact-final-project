@@ -105,6 +105,14 @@
         display: flex;
     }
 
+    .row {
+        width: 100%;
+        max-width: 1200px;
+        margin: 16px;
+        padding: 12px 12px;
+    }
+    
+
     .nav__logo {
         display: flex;
         align-items: center;
@@ -113,8 +121,8 @@
     }
 
     .nav__logo--img {
-        width: 40%;
-        height: 40%;
+        width: 40px;
+        height: 40px;
     }
 
     .nav__logo--title {
@@ -128,6 +136,7 @@
     .nav__row {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .nav__container {
@@ -1102,6 +1111,7 @@
         font-weight: 700;
         font-size: 16px;
         color: #f7fafc;
+        background-color: #6415ff;
         line-height: 1.5;
         letter-spacing: 0.025;
         margin: 1px;

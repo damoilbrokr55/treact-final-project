@@ -941,9 +941,13 @@
         justify-content: space-between;
     }
 
-    .testimonials__img,
+    .testimonials__img--wrapper,
     .testimonials__description {
         width: 50%;
+    }
+
+    .testimonials__img {
+        width: 100%;
     }
 
     .testimonials__description {

@@ -638,7 +638,7 @@
     }
 
     #values .btn {
-        margin-top: 48;
+        margin-top: 48px;
     }
 
     .value {
@@ -1450,7 +1450,7 @@
         }
 
         .values__list {
-            max-width: 20rems;
+            max-width: 20rem;
             flex-direction: column;
         }
 

@@ -681,6 +681,11 @@
         height: 20px;
     }
 
+    .values__img {
+        width: 24px;
+        height: 24px;
+    }
+
     .value:nth-child(1) .value__img--wrapper {
         background-color: #9ae6b4
     }
@@ -697,6 +702,11 @@
         width: 36px;
         height: 36px;
     }
+
+    .values__illustration {
+        width: 50%;
+    }
+    
 
     .value__name {
         margin-left: 12px;

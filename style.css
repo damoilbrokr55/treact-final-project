@@ -630,6 +630,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 32px;
     }
 
     #values .section__title {
@@ -650,8 +651,8 @@
     }
 
     .values__description,
-    .values__img {
-        width: 50%;
+    .values__illustration {
+        width: calc(50% - 16px);
     }
 
     .values__list {
@@ -702,11 +703,6 @@
         width: 36px;
         height: 36px;
     }
-
-    .values__illustration {
-        width: 50%;
-    }
-    
 
     .value__name {
         margin-left: 12px;

@@ -613,15 +613,14 @@
 
     .steps__grid {
         position: absolute;
-        bottom: 0;
+        bottom: -40px;
         left: 50%;
         transform: translateX(-50%);
-        width: 10rem;
-        height: 10rem;
+        width: 80px;
+        height: 80px;
         opacity: 0.8;
-        z-index: 999;
+        z-index: 1;
         color: rgb(100, 21, 255);
-        background: red;
         fill: currentColor;
     }
 
@@ -914,7 +913,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+        transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
         height: 256px;
         width: 256px;
         opacity: 0.25;
@@ -1030,6 +1029,7 @@
     .testimonial__buttons {
         display: flex;
         align-items: center;
+        margin-left: 0 auto;
     }
 
     .testimonial__button svg {
@@ -1038,16 +1038,22 @@
     }
 
     .testimonial__button {
+        width: 48px;
+        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 16px;
+        padding: 0;
         background: #edf2f7;
         border-radius: 50%;
-        margin: 0 12px;
+        margin: 0 8px;
         transition: all 300ms ease;
     }
 
+    .testimonial__button i {
+        color: rgb(100, 21, 255);
+    }
+    
     .testimonial__button:hover {
         background-color: rgba(229, 231, 235);
     }
@@ -1125,7 +1131,8 @@
         z-index: 2;
     }
 
-    .start__button contact {
+    .start__button.contact {
+        background-color: transparent;
         border: 1px solid rgb(160, 174, 192);
     }
 

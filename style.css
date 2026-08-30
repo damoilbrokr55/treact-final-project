@@ -968,7 +968,7 @@
     }
 
     .testimonial {
-        margin-top: 40px;
+        width: 100%;
     }
 
     .testimonial__rating {
@@ -1003,7 +1003,7 @@
     .testimonial__bottom {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        piosition: relative;
         width: 100%;
     }
 
@@ -1033,8 +1033,8 @@
     .testimonial__buttons {
         display: flex;
         align-items: center;
-        flex-shrink: 0;
-        margin-left: 120px;
+        position: absolute;
+        right: 0;
     }
 
     .testimonial__button svg {
